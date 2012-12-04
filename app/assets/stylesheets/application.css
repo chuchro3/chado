@@ -11,3 +11,21 @@
  *= require_self
  *= require_tree .
  */
+
+#main {
+	width: 700px;
+	height: 800px;
+	border:1px solid;
+	border-color: #994015;
+	border-radius:35px;
+	-moz-border-radius:35px; /* Old Firefox */
+
+	padding: 35px;
+}
+
+.center {
+	position: fixed;
+	left: 40%;
+	margin-top: 20px;
+	margin-left: -100px;
+}
