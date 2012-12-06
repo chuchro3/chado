@@ -13,13 +13,14 @@
  */
 
 #main {
-	width: 700px;
-	height: 800px;
+	width: 400px;
+	height: 500px;
 	border:1px solid;
 	border-color: #994015;
 	border-radius:35px;
 	-moz-border-radius:35px; /* Old Firefox */
-
+		
+	background-color: #f4f5f5;
 	padding: 35px;
 }
 
@@ -28,4 +29,24 @@
 	left: 40%;
 	margin-top: 20px;
 	margin-left: -100px;
+}
+
+.hidden {
+	display: none;
+	position: absolute;
+}
+
+
+
+#quote {
+	top: 190px;
+	right: 55px;
+}
+
+#quote_definition {
+	top: 290px;
+	left: 200px;
+
+	width: 180px;
+
 }

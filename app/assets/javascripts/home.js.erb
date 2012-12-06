@@ -1,0 +1,19 @@
+
+$(document).ready(function() {
+	
+		//alert("hi!");
+  
+    $('#quote').fadeIn(3700, function() {
+			//pausecomp(2000);
+			$('#quote_definition').fadeIn(2500);
+    	$('#main').bind('click', function() {
+				$('#quote').fadeOut(2000);
+			});
+    });
+});
+
+
+function pausecomp(ms) {
+	ms += new Date().getTime();
+	while (new Date() < ms){}
+} 
